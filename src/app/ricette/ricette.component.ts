@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ricette.component.css']
 })
 export class RicetteComponent implements OnInit {
+  ricette: []
 
   constructor() { }
 
