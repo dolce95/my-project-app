@@ -1,1 +1,16 @@
-<p>elemento-ricetta works!</p>
+<a
+  href="#"
+  class="list-group-item clearfix"
+  >
+  <div class="pull-left">
+    <h4 class="list-group-item-hea">{{ricetta.nome}}</h4>
+    <p class="list-group-item-text">{{ricetta.descrizione}}</p>
+  </div>
+  <span class="pull-right">
+    <img
+    [src]="ricetta.imagePath"
+    alt="{{ricetta.nome}}"
+    class="img-responsive"
+    style="max-height: 50px"/>
+  </span>
+</a>
