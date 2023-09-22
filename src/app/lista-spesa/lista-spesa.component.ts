@@ -17,4 +17,8 @@ export class ListaSpesaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onIngredientiAggiunti(ingrediente: Ingrediente) {
+    this.ingredienti.push(ingrediente);
+  }
+
 }
